@@ -6,7 +6,7 @@ from colorama import Fore, Style
 target_usd_market_cap = 30000  # Miinimal mcap
 max_target_usd_market_cap = 59000
 name_filter = "trump"  # Name filter blank aja klo gak mau filter nama
-base_url = "https://frontend-api.pump.fun/coins?offset={}&limit=50&sort=created_timestamp&order=ASC&includeNsfw=false" #ganti ASC jadi DESC untuk terbaru
+base_url = "https://frontend-api.pump.fun/coins?offset={}&limit=50&sort=created_timestamp&order=ASC&includeNsfw=false" #ganti (ASC)jadi (DESC) untuk new pair terbaru
 
 def fetch_data(offset):
     url = base_url.format(offset)
